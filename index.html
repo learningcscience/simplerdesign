@@ -1,0 +1,135 @@
+<!doctype html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title> Design Houses | Simpler Design </title>
+   <link rel = "icon" href ="img/f.jpg">
+    <link rel="stylesheet" href="css/style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+	<div class="navbar" >
+			   <label class="logo">Simpler Design</label>
+      			<ul>
+        				<li><a href="index.html">Home</a></li>
+       				 <li><a href="#about">About</a></li>
+       				 <li><a href="#work">Our Work</a></li>
+       				 <li><a href="#contact">Contact</a></li>
+     			 </ul>
+			<span onclick="openNav()">&#9776;</span>
+		</div>
+			
+		
+		<div class="side" id="sidenav">
+			 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      			<ul>
+        				<li><a href="index.html">Home</a></li>
+      				  <li><a href="#about">About</a></li>
+      				  <li><a href="#work">Our Work</a></li>
+        				<li><a href="#contact">Contact</a></li>
+ 		     </ul>
+		</div>
+
+
+<section>
+  		<div class="row">
+			<div class="col-1">
+			<h2> Design your houses with us</h2>
+			<p>Houses design is the art and science of enhancing the <br>
+			      interior of a building to achieve a healthier and more <br>
+			     aesthetically pleasing environment for the people using<br>
+			 thespace.</p>
+			</div>
+			<div class="col-2">
+				<img src="img/e.jpg" class="book">
+			
+			</div>
+		</div>
+</section>
+
+<section  id="about" >
+		<h1 class="heading">About</h1>			
+		<div class="row">
+			<div class="col-1">
+			<h2>Simpler Design</h2>
+			<p>Simpler Design is one of the best center for your houses design.<br>
+			      We design your houses like ours. You can contact us for more <br>details.
+			     It is avilable in 09:00 AM - 08:00 PM in 3 days a week. Sunday, <br>Tuesday, Thursday. </p>
+			</div>
+			<div class="col-2">
+				<img src="img/banner-2.jpg" class="book">
+			
+			</div>
+		</div>
+</section>
+
+<section  id="work" >
+ <h1>Our Work</h1>
+<hr/>
+<main>
+ <div class="box">
+<img src="img/a.jpg"></div>
+<div class="box">
+<img src="img/b.jpg"></div>
+<div class="box">
+<img src="img/c.jpg"></div>
+<div class="box">
+<img src="img/d.jpg"></div>
+<div class="box">
+<img src="img/e.jpg"></div>
+<div class="box">
+<img src="img/f.jpg"></div>
+<div class="box">
+<img src="img/g.jpg"></div>
+<div class="box">
+<img src="img/h.jpg"></div>
+<div class="box">
+<img src="img/i.jpg"></div>
+<div class="box">
+<img src="img/j.jpg"></div>
+</main>
+</section>
+
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+ <div class="container">
+			<form id="contact">
+      				<h1>Contact Us</h1>
+				<div id="output">
+				</div>
+     				 <label >Email*</label>
+     				 <input type="text" placeholder="Enter Email" name="email" >
+
+      				<label >Password*</label>
+      				<input type="password" placeholder="Enter Password" name="psw" >
+
+     				 <label>Repeat Password*</label>
+      				<input type="password" placeholder="Repeat Password" name="psw-repeat">
+      
+      				<button  class="sign" id="btn">Sign In</button>
+  			</form>
+    	</div>
+
+<footer>
+
+	<p>&copy; All right reserved Simpler Design 2021 </p>
+
+</footer>
+	<script>
+	function openNav() {
+ 		 document.getElementById("sidenav").style.width = "250px";
+	}
+
+	function closeNav() {
+  		document.getElementById("sidenav").style.width = "0";
+	}
+
+	document.getElementById("btn").addEventListener("click", function(){
+
+     	document.getElementById("output").innerText = "Thank you for filing the form";
+
+	});
+	</script>
+</body>
+</html>
